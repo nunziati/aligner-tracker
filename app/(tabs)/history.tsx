@@ -1,10 +1,10 @@
 import { View, Text, StyleSheet } from 'react-native';
 
-export default function TrackerScreen() {
+export default function HistoryScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Timer Tracker</Text>
-      <Text>Qui ci sarà il cronometro</Text>
+      <Text style={styles.title}>I tuoi progressi</Text>
+      <Text>Qui ci saranno i grafici</Text>
     </View>
   );
 }
